@@ -5,28 +5,12 @@ tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
-    
+<hr />    
 <center> Welcome to my website! </center>
-<center> Hi! My name is Heriberto Lopez, I recently graduated from St. Olaf College with a bachelor in Economics, Statistics and Data Science. I have work experience in analytics is various field like biostatistics, healthcare economics, and ecology. </center>
-
-
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
-
-## Preview
-
+<center> Hi! My name is Heriberto Lopez, I recently graduated from St. Olaf College with a bachelor in Economics, Statistics and Data Science. I have work experience in analytics is various field like biostatistics, healthcare economics, and ecology. </center> 
+             
 {% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+   'assets/img/Headshot.jpg'
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
