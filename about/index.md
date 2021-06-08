@@ -1,12 +1,14 @@
 ---
 layout: page
-title: About the Theme
+title: About me 
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center> Welcome to my website! </center>
+<center> Hi! My name is Heriberto Lopez, I recently graduated from St. Olaf College with a bachelor in Economics, Statistics and Data Science. I have work experience in analytics is various field like biostatistics, healthcare economics, and ecology. </center>
+
 
 ## Features
 * Minimal, you can focus on your content
