@@ -3,12 +3,12 @@ layout: post
 title:  "Pokemon Classification Project"
 date:   2021-05-23
 category: Data Science 
-excerpt: "A Data Science Exploration Project on Pokemon. " 
+excerpt: " A Data Science Exploration Project on Pokemon. " 
 feature: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png
 comments: true
 --- 
 
-## Introduction 
+# Introduction 
 
 Since its release in 1996, Pokemon has become an instant success spanning seven generations with more than 802 Pokemon characters. Initially released as "pocket monsters" in Japan, Pokemon became an instant hit when it first began circulating in the United States in the '90s. The franchise largely revolved around animal-like characters in conjunction with human trainers competing in battles with each other trainers and pokemon. In the original television series, a segment of the show included attempting to guess a pokemon based on an outline of its image. The segment was called "who's that pokemon?". I remember growing up watching the series and attempting to guess the pokemon just based on the outline of a pokemon. 
 
