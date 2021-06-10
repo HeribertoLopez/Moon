@@ -54,7 +54,7 @@ For this project, we wanted to do something similar to that segment of the telev
   
 ### b. Ridge Regression
 
-  Next we thought a form of penalized regression might be useful for this problem since there were so many possible predictors. Ridge regression is one type of penalized regression which seeks to minimize the mean squared error with the constraint that the sum of the squares of the coefficients are less than or equal to some parameter *t*. The model will automatically set many unimportant predictors to zero, so the large number of predictors is narrowed down. We used cross validation to get the optimal value of \\( \lambda \\) \\[ \lambda \\] which is equivalent to \\[ \frac{1}{t} \\]. Then we ran the model on a test set to get the MSE.  
+  Next we thought a form of penalized regression might be useful for this problem since there were so many possible predictors. Ridge regression is one type of penalized regression which seeks to minimize the mean squared error with the constraint that the sum of the squares of the coefficients are less than or equal to some parameter \\( t \\). The model will automatically set many unimportant predictors to zero, so the large number of predictors is narrowed down. We used cross validation to get the optimal value of \\( \lambda \\),  which is equivalent to \\( \frac{1}{t} \\). Then we ran the model on a test set to get the MSE.  
 
 ### c. Random Forest
 
