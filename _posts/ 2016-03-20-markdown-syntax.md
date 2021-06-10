@@ -4,7 +4,7 @@ title:  "Pokemon Classification Project"
 date:   2021-05-23
 excerpt: 
 tag: [sample post, images, test]
-feature: http://pngimg.com/uploads/pokemon/small/pokemon_PNG148.png 
+feature: http://pngimg.com/uploads/pokemon/small/pokemon_PNG148.png  2016-03-20-markdown-syntax.md
 comments: true
 --- 
 
