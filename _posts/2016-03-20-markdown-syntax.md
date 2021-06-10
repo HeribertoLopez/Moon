@@ -27,7 +27,7 @@ For this project, I wanted to do something similar to that segment of the televi
 ## Datasets 
 
 - [The Complete Pokemon Dataset from Kaggle](https://www.kaggle.com/rounakbanik/pokemon) 
-   -
+
 - [Pokemon Image Dataset from Kaggle](https://www.kaggle.com/vishalsubbiah/pokemon-images-and-types) 
 
 
