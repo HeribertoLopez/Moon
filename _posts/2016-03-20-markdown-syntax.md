@@ -65,8 +65,6 @@ For this project, we wanted to do something similar to that segment of the telev
         <a href="https://github.com/HeribertoLopez/Pokemon_Classification/blob/main/Final_Report.Rmd" class="btn btn-success"> Source Code</a
     </div>
 </center>
-
-<hr> 
         
 ## Conclusion/Results 
 For our type classification models, LDA had the lowest error rate, but only used five types. The decision tree was pretty effective for all 18 types. This is interesting because it shows that those that created the Pokemon and their abilities and statistics and class designation did it in a consistent way. Different types of Pokemon have a detectable pattern of statistics. There is much more we could do with this problem. For Images we would suggest, if possible perhaps using a different type of color instead of grey scale since images were largely similarly dark, and hard to distinguish, by just the greyscale color. We also think that it would be really cool to attempt this approach using images that are used on the shows' who's that Pokemon challenge where you have to guess the Pokemon based on an outline of what it looks like.  
