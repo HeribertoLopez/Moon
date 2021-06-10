@@ -68,7 +68,6 @@ For this project, we wanted to do something similar to that segment of the telev
 
 <hr> 
 
-</hr> 
 
 
 
@@ -86,9 +85,13 @@ Overall, both of our research questions were answered with a “yes, we can buil
       
 <figure class="half">
 	<a href='/assets/img/LDA_plot.png'><img src='/assets/img/LDA_plot.png'></a>
-    <figcaption><sub>2</sub></figcaption>
+    <figcaption>Linear Discriminant Analysis Plot for Pokemon Classification by type<sub>2</sub></figcaption>
 </figure>
 
+<figure class="half">
+	<a href='/assets/img/Random_Forest.png'><img src='/assets/img/Random_Forest.png'></a>
+    <figcaption><sub>Optimal Random Forest Tree.(CP = .01)</sub></figcaption>
+</figure>
  
 # Heading 1
 
