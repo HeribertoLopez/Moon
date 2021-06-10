@@ -60,6 +60,37 @@ For this project, we wanted to do something similar to that segment of the telev
 
   The third model we used to make predictions on legendary classification was a method known as random forest. Our main reason of using the random forest method, also known as bagging, is because often our optimal decision trees can be maximized and overfit our data and have a maximal depth. Thus, relatively small changes in the training set that was used for a decision tree can lead to invariably largely distinct looking decision trees. Moreover, random forest allows to use what is called "the wisdom of the crowd" wherein we can control for the error of our collection of maximal trees by averaging the errors out. Using the randomforest library from R programming. We used one-hundered trees in our random forest model, 31 random predictors choosen from our previous Pokemon dataset we created (i.e. poke.df), and used a train and test dataset to model and make predictions.
 
+<center>
+    <div class="btn-group">
+        <a href="https://github.com/HeribertoLopez/Pokemon_Classification/blob/main/Final_Report.Rmd" class="btn btn-success"> Source Code</a
+    </div>
+</center>
+
+## Conclusion/Results 
+        
+For our type classification models, LDA had the lowest error rate, but only used five types. The decision tree was pretty effective for all 18 types. This is interesting because it shows that those that created the Pokemon and their abilities and statistics and class designation did it in a consistent way. Different types of Pokemon have a detectable pattern of statistics. 
+ There is much more we could do with this problem. For Images we would suggest, if possible perhaps using a different type of color instead of grey scale since images were largely similarly dark, and hard to distinguish, by just the greyscale color. We also think that it would be really cool to attempt this approach using images that are used on the shows' who's that Pokemon challenge where you have to guess the Pokemon based on an outline of what it looks like.  
+        
+ The legendary classification models were also all working pretty well and all had similarly small MSE, with the exception of KNN. This makes sense because legendary Pokemon are supposed to be special and more powerful, so their statistics should probably be differentiable from non-legendary Pokemon. It was also interesting to see which variables were most important. For ridge regression, we found that all of the “against” variables were most important which probably means that legendary Pokemon are more powerful against all types of Pokemon. Also, generation ended up being important when removing the “against” variables which also makes sense because there were more legendary Pokemon in later generations. The random forest model had base egg steps and capture rate as most important. Capture rate is a measure of how difficult the Pokemon is to capture, and legendary Pokemon are generally harder to capture.
+        
+	Overall, both of our research questions were answered with a “yes, we can build models that work pretty well.” It was really interesting to see that the Pokemon stats were created in a really specific way, and Pokemon players would be better off knowing which characteristics are prevalent in different types and what makes a legendary Pokemon different from a regular Pokemon.
+
+<hr>
+
+<figure class="half">
+    <a href='/assets/img/ch4.jpg'><img src='/assets/img/ch4.jpg'></a>
+    <a href='/assets/img/co2_country.jpg'><img src='/assets/img/co2_country.jpg'></a>
+    <figcaption>Top cotributors of CO<sub>2</sub> and CH<sub>4</sub> </figcaption>
+</figure>
+        
+<figure class="half">
+	<a href='/assets/img/co2.jpg'><img src='/assets/img/co2.jpg'></a>
+	<a href='/assets/img/sealevel.jpg'><img src='/assets/img/sealevel.jpg'></a>
+    <figcaption>Association between CO<sub>2</sub> rise and Sealevel rise</figcaption>
+</figure>
+
+ 
+      
 # Heading 1
 
 ## Heading 2
