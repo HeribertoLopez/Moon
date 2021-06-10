@@ -1,20 +1,36 @@
 ---
 layout: post
-title:  "Markdown Syntax"
-date:   2016-03-15
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-tag:
-- markdown 
-- syntax
-- sample
-- test
-- jekyll
+title:  "Pokemon Classification Project"
+date:   2021-05-23
+excerpt: 
+tag: [sample post, images, test]
+feature: http://pngimg.com/uploads/pokemon/small/pokemon_PNG148.png 
 comments: true
----
+--- 
 
-## HTML Elements
+## Introduction 
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+Since its release in 1996, Pokemon has become an instant success spanning seven generations with more than 802 Pokemon characters. Initially released as "pocket monsters" in Japan, Pokemon became an instant hit when it first began circulating in the United States in the '90s. The franchise largely revolved around animal-like characters in conjunction with human trainers competing in battles with each other trainers and pokemon. In the original television series, a segment of the show included attempting to guess a pokemon based on an outline of its image. The segment was called "who's that pokemon?". I remember growing up watching the series and attempting to guess the pokemon just based on the outline of a pokemon. 
+
+For this project, I wanted to do something similar to that segment of the television series. However, instead of guessing, I decided to explore building several models that could classify Pokemon based on their individual characteristics and features.  Below are a few of the questions guiding the exploration. 
+
+### Out of the following Statistical Methods which produces the lowest error rate when classfying the Pokemon by type? 
+- LDA
+- Decision Tree
+
+### Using the following methods, how about when we build a predictive model to determine whether a Pokemon is legendary or not?
+- KNN
+- Ridge
+
+### Lastly, how well does the singular value decomposition method differentiate between different types of Pokemon? 
+
+## Datasets 
+
+- [The Complete Pokemon Dataset from Kaggle](https://www.kaggle.com/rounakbanik/pokemon) 
+   -
+- [Pokemon Image Dataset from Kaggle](https://www.kaggle.com/vishalsubbiah/pokemon-images-and-types) 
+
+
 
 # Heading 1
 
