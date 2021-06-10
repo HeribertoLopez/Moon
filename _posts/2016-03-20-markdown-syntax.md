@@ -66,7 +66,6 @@ For this project, we wanted to do something similar to that segment of the telev
     </div>
 </center>
 
-<hr> 
 
 
 
@@ -78,7 +77,7 @@ For our type classification models, LDA had the lowest error rate, but only used
 The legendary classification models were also all working pretty well and all had similarly small MSE, with the exception of KNN. This makes sense because legendary Pokemon are supposed to be special and more powerful, so their statistics should probably be differentiable from non-legendary Pokemon. It was also interesting to see which variables were most important. For ridge regression, we found that all of the “against” variables were most important which probably means that legendary Pokemon are more powerful against all types of Pokemon. Also, generation ended up being important when removing the “against” variables which also makes sense because there were more legendary Pokemon in later generations. The random forest model had base egg steps and capture rate as most important. Capture rate is a measure of how difficult the Pokemon is to capture, and legendary Pokemon are generally harder to capture. 
 Overall, both of our research questions were answered with a “yes, we can build models that work pretty well.” It was really interesting to see that the Pokemon stats were created in a really specific way, and Pokemon players would be better off knowing which characteristics are prevalent in different types and what makes a legendary Pokemon different from a regular Pokemon.
 
-<hr>         
+<hr>        
       
       
       
