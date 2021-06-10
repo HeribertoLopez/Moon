@@ -31,9 +31,9 @@ For this project, I wanted to do something similar to that segment of the televi
 
 - [Pokemon Image Dataset from Kaggle](https://www.kaggle.com/vishalsubbiah/pokemon-images-and-types) 
 
-# Methods  
+## Methods  
 
-## I. Type Classification Method
+### I. Type Classification Method
 ### a. Linear Discriminant Analysis (LDA)
 
   LDA is a method to find linear combinations of predictors which can separate the data into classes. The resulting coefficients can then be used to create a scaling vector which maximizes the ratio of intergroup separation and intragroup variance. This is useful for dimension reduction to then predict the model on the scaled vectors. Since there are around 30 possible predictors, this feature of LDA seemed to make sense. There are 18 types of Pokemon, but the top five types (water, normal, bug, fire, and grass) make up about half of the 801 Pokemon in the dataset. We decided to run the LDA model just on these top five types to see if we could get a more simple model working on just these most common types. We used all predictors in the model, got a scaling vector, scaled all the coefficients for each class, ending up with four alpha values, and then ran another LDA model on the alpha values to get our final MSE.
@@ -44,11 +44,11 @@ For this project, I wanted to do something similar to that segment of the televi
   
 ### c. Images
 
-  For our image process we used singular value decomposition which allowed us to run a linear model everytime we wanted to predict on a new hat,a hat refers to the eigenspace of a particular type - `water`, `fire`,etc. The process of applying singular value decomposition was challenging. Using the image data that we pulled from Kaggle, we began by converting the images into multiple csv files for each image, but quickly found that this method was not ideal. Instead, what we had to do was create a matrix/dataset where the rows are the individual images and the columns are the total number of pixels(721 * 14400). In total, we had 721 images. I created a function that read each image, converted them to greyscale and returned them as a matrix. Then, I used a for loop to combing each image matrix into one matrix by their rows. Finnally, to figure out the type of each Pokemon, I used our pokemon dataset and an *inner_join* function join the datasets by the pokemon name and then removed everything except for their types. We then combined them into one whole dataset with a column for their respective types. Because our dataset was so big. We decided to focus only on projecting `water` onto `fire` space.
+  For our image process we used singular value decomposition which allowed us to run a linear model everytime we wanted to predict on a new hat,a hat refers to the eigenspace of a particular type - *water*, *fire*, *etc*. The process of applying singular value decomposition was challenging. Using the image data that we pulled from Kaggle, we began by converting the images into multiple csv files for each image, but quickly found that this method was not ideal. Instead, what we had to do was create a matrix/dataset where the rows are the individual images and the columns are the total number of pixels(721 * 14400). In total, we had 721 images. I created a function that read each image, converted them to greyscale and returned them as a matrix. Then, I used a for loop to combing each image matrix into one matrix by their rows. Finnally, to figure out the type of each Pokemon, I used our pokemon dataset and an *inner_join* function join the datasets by the pokemon name and then removed everything except for their types. We then combined them into one whole dataset with a column for their respective types. Because our dataset was so big. We decided to focus only on projecting `water` onto `fire` space.
 
 ## II. Legendary Classification Method
 
-### a. KNN with k-fold Cross Validation
+#### a. KNN with k-fold Cross Validation
   
   For our first legendary classification model, we decided to use a 10 fold cross validated KNN model. KNN works by taking in a parameter k, which represents the number of closest neighbors the model takes into account. For a KNN classification, there is a vote in the neighborhood of a points k nearest neighbors, and whichever class has the most in that neighborhood is the class that point is assigned to. We also used a 10 fold cross validation to create our training and testing data sets for the model. Cross validation gives us more ways to reuse the data in creating more combinations of train and test sets, and allows us to tune our k parameter more finely. To do this we wrote 2 simple helper functions and then a map_dbl to use all the folds and possible k values in order to find the optimal parameters. Since there is no penalization in the KNN model, it was seemingly overwhelmed by all the predictors and not as efficient as some of our other models. 
   
