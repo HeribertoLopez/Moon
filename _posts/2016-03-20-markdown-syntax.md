@@ -14,15 +14,16 @@ Since its release in 1996, Pokemon has become an instant success spanning seven 
 
 For this project, I wanted to do something similar to that segment of the television series. However, instead of guessing, I decided to explore building several models that could classify Pokemon based on their individual characteristics and features.  Below are a few of the questions guiding the exploration. 
 
-### Out of the following Statistical Methods which produces the lowest error rate when classfying the Pokemon by type? 
+*Out of the following Statistical Methods which produces the lowest error rate when classfying the Pokemon by type?* 
 - LDA
 - Decision Tree
 
-### Using the following methods, how about when we build a predictive model to determine whether a Pokemon is legendary or not?
+*Using the following methods, how about when we build a predictive model to determine whether a Pokemon is legendary or not?*
 - KNN
 - Ridge
 
-### Lastly, how well does the singular value decomposition method differentiate between different types of Pokemon? 
+*Lastly, how well does the singular value decomposition method differentiate between different types of Pokemon?* 
+- Singular Value Decomposition 
 
 ## Datasets 
 
