@@ -75,7 +75,7 @@ The legendary classification models were also all working pretty well and all ha
 Overall, both of our research questions were answered with a “yes, we can build models that work pretty well.” It was really interesting to see that the Pokemon stats were created in a really specific way, and Pokemon players would be better off knowing which characteristics are prevalent in different types and what makes a legendary Pokemon different from a regular Pokemon.
 
 
-
+<hr> 
       
 <figure class="half">
 	<a href='/assets/img/LDA_plot.png'><img src='/assets/img/LDA_plot.png'></a>
