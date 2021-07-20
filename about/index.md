@@ -3,17 +3,18 @@ layout: page
 title: About me 
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
+logo: '/assets/img/Headshot.jpg
 comments: false
 ---
-<hr />    
-<center> Welcome to my website! </center>
-<center> Hi! My name is Heriberto Lopez, I recently graduated from St. Olaf College with a bachelor in Economics, Statistics and Data Science. I have work experience in analytics is various field like biostatistics, healthcare economics, and ecology. </center> 
-             
-<p><img src="assets/img/Headshot.jpg" alt="description" width="100" height="48" /></p>
-             
-{% capture images %}
-   'assets/img/Headshot.jpg'
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-      
-#[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+<hr/>    
+<strong> <center> Welcome to my website! </center> </strong>
+Hi! My name is Heriberto Lopez, I recently graduated from St. Olaf College with a bachelors in Economics, Statistics and Data Science. I am always fascinated by data and enjoy manipulating data and extracting potentially important information from data. My interest lie in the intersection between health care and bridging disparities for underserved communities. Outside of work, I enjoy playing basketball, watching movies, working out and playing video games. 
+
+<hr/>
+<center>
+    <div class="btn-group">
+        <a href="https://drive.google.com/file/d/1_2bpcGPtlQsLyf7RQZnPXc8fIlZ8Ii0_/view?usp=sharing" class="btn btn-primary">Resume</a>
+        <a href="https://gurungkshitij.github.io//posts/" class="btn btn-primary">Projects</a>
+        <a href="https://gurungkshitij.github.io/projects/" class="btn btn-primary"> Hobbies</a>    
+    </div>
+</center>
