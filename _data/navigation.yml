@@ -1,4 +1,7 @@
 # Site navigation links
 
-- title: Projects
-  url: /projects/
+- title: Hobbies 
+  url: /projects/ 
+  
+  - title: Resume 
+    url: url: https://drive.google.com
