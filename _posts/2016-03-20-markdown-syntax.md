@@ -1,7 +1,7 @@
 ---
+layout: post
 title:  "Pokemon Classification Project"
 date:   2021-05-23
-project: true
 category: Data Science 
 excerpt: " A Data Science Exploration Project on Pokemon. " 
 feature: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png
