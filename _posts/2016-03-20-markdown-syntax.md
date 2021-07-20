@@ -74,18 +74,19 @@ The legendary classification models were also all working pretty well and all ha
 Overall, both of our research questions were answered with a “yes, we can build models that work pretty well.” It was really interesting to see that the Pokemon stats were created in a really specific way, and Pokemon players would be better off knowing which characteristics are prevalent in different types and what makes a legendary Pokemon different from a regular Pokemon.
 
 <hr>
-    
+ 
+ <center>
 <figure class="half">
 	<a href='/assets/img/LDA_plot.png'><img src='/assets/img/LDA_plot.png'></a>
     <figcaption> Figure 1. Linear Discriminant Analysis Plot for Pokemon Classification by type<sub></sub></figcaption>
-</figure>
+</center>
+    </figure>
 
+
+<center>
 <figure class="half">
 	<a href='/assets/img/Random_Forest.png'><img src='/assets/img/Random_Forest.png'></a>
     <figcaption><sub> Figure 2. Optimal Random Forest Tree.(CP = .01)</sub></figcaption>
-</figure>
+</center>
+    </figure>
 
-{% capture images %}
-	<a href='/assets/img/Random_Forest.png'><img src='/assets/img/Random_Forest.png'></a>
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
