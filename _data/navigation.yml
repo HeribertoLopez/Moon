@@ -1,8 +1,9 @@
 # Site navigation links
+  
+- title: Hobbies
 
-- title: Hobbies 
-  url: /projects/ 
-  
-  
-- title: Resume 
-    url: https://drive.google.com/file/d/1_2bpcGPtlQsLyf7RQZnPXc8fIlZ8Ii0_/view
+  url: /projects/
+
+- title: Resume
+
+  url: https://drive.google.com/file/d/1_2bpcGPtlQsLyf7RQZnPXc8fIlZ8Ii0_/view
