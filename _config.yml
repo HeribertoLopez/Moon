@@ -2,11 +2,11 @@ site:               heribertolopez.github.io
 title:              Heriberto Lopez
 bio:                <font size = 2>  "All models are wrong, but some are useful - George Box" </font> 
 description:        "Hello, World!"
-reading_time:       false
+reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/Headshot.jpg'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           true  # Set this true if you want to tile your background image, otherwise it will be covered
+background:         https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F03%2F26%2Fhimalayas-eastern-nepal-milky-way-SPRINGSKY0320.jpg
+tiled_bg:           false  # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://HeribertoLopez.github.io/
 
