@@ -84,11 +84,9 @@ Overall, both of our research questions were answered with a “yes, we can buil
   
 
 
-<center>
-    <figure class="half">
+<center><figure class="half">
         <a href='/assets/img/Random_Forest.png'><img src='/assets/img/Random_Forest.png'></a>
         <figcaption><sub> Figure 2. Optimal Random Forest Tree.(CP = .01)</sub></figcaption>
-    </figure>
-</center>
+    </figure></center>
     
 
