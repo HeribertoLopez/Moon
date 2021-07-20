@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: Hobbies and Fun Involvements
 excerpt: "A List of Projects"
 comments: false
