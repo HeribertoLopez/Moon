@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Pokemon Classification Project"
 date:   2021-05-23
 project: true
