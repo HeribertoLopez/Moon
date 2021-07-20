@@ -75,18 +75,20 @@ Overall, both of our research questions were answered with a “yes, we can buil
 
 <hr>
  
- <center>
-<figure class="half">
-	<a href='/assets/img/LDA_plot.png'><img src='/assets/img/LDA_plot.png'></a>
-    <figcaption> Figure 1. Linear Discriminant Analysis Plot for Pokemon Classification by type<sub></sub></figcaption>
+<center>
+    <figure class="half">
+        <a href='/assets/img/LDA_plot.png'><img src='/assets/img/LDA_plot.png'></a>
+        <figcaption> Figure 1. Linear Discriminant Analysis Plot for Pokemon Classification by type<sub></sub></figcaption>
+         </figure>
 </center>
-    </figure>
+  
 
 
 <center>
-<figure class="half">
-	<a href='/assets/img/Random_Forest.png'><img src='/assets/img/Random_Forest.png'></a>
-    <figcaption><sub> Figure 2. Optimal Random Forest Tree.(CP = .01)</sub></figcaption>
-</center>
+    <figure class="half">
+        <a href='/assets/img/Random_Forest.png'><img src='/assets/img/Random_Forest.png'></a>
+        <figcaption><sub> Figure 2. Optimal Random Forest Tree.(CP = .01)</sub></figcaption>
     </figure>
+</center>
+    
 
