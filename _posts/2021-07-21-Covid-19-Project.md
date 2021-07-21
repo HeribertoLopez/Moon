@@ -48,9 +48,8 @@ From our plots, we saw that for countries with covid case reporting such as that
 	<figcaption> Plots Demonstrating New Weekly Cases and Vaccinations over time. Drops around January in the cases plot can be attributed to a drop in testing and reporting during the holidays. </figcaption>
 </figure>
 
+<br> 
 <\br>
-
-
 
 
 <figure>
