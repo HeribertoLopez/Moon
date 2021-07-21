@@ -3,7 +3,7 @@ layout: post
 title:  "Covid-19 and Vaccinations"
 date:   2021-07-20
 excerpt: " A data visualization project."
-feature: https://gray-ky3-prod.cdn.arcpublishing.com/resizer/Q4F5lJmO-2HQWKJXLnDAwp36Ufs=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/77SQLW2NKFELNKPALHBBLJA6NU.jpg
+feature: https://quincy-network.s3.ca-central-1.amazonaws.com/wp-content/uploads/sites/10/2021/07/coronavirus-delta-variant-no-text-860x484.jpg
 comments: true
 --- 
 
