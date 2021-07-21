@@ -17,6 +17,14 @@ Previous research has shown that receiving two doses of the Pfizer mrna vaccine 
 Moreover, the findings suggest that COVID-19 vaccination can help to control the pandemic. 
 After gathering data for new covid cases, we analyzed how these cases respond to vaccination rates and drew conclusions from our findings.  
 
+# Guiding Questions: 
+
+- At what percentage of vaccinations do we begin to see a drop in cases? 
+- How many weeks should we see a decline for the drop in cases to be attributed to vaccinations? 
+
 # Data and Methods  
 
-For this project, we used data from the our world in data database on github. [Data on Covid-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data) 
+For this project, we used data from the our world in data database on github.  [Data on Covid-19 by *Our World in Data*](https://github.com/owid/covid-19-data/tree/master/public/data). As well as, data from the [*New York Times*](https://github.com/nytimes/covid-19-data). From the the *Our World in Data* dataset, we choose to use the following variables: location, population, date, new_cases, new_deaths, people_fully_vaccinated, people_vaccinated.
+
+# 
+
