@@ -1,103 +1,22 @@
 ---
 layout: post
-title:  "Moon Jekyll Theme"
-date:   2016-04-06
-excerpt: "Minimal, one column Jekyll theme for your blog."
-project: true
-tag:
-- jekyll 
-- moon
-- blog
-- about
-- theme
+title:  "Covid-19 and Vaccinations"
+date:   2021-07-20
+excerpt: " A data visualization project."
+feature: https://gray-ky3-prod.cdn.arcpublishing.com/resizer/Q4F5lJmO-2HQWKJXLnDAwp36Ufs=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/77SQLW2NKFELNKPALHBBLJA6NU.jpg
 comments: true
 --- 
-    
-<center><b>Moon</b> is a minimal, one column jekyll theme.</center>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
----
+# Introduction 
 
+COVID-19 is a type of coronavirus that possesses high rates of transmissibility among the human population.
+For this research project, we investigated how COVID-19 cases change at varying degrees of vaccination rates from a global, country, and state-level perspective.
+Our purpose was to identify the percentage of people vaccinated needed to begin to see a drop in cases.
+A variant of the virus,  *Delta*, has recently been reported as having a higher rate of transmissibility among vaccinated and non-vaccinated individuals alike.
+Previous research has shown that receiving two doses of the Pfizer mrna vaccine is highly effective across age groups greater than 16 years of age and in preventing symptomatic and asymptomatic SARS-CoV-2 infections. 
+Moreover, the findings suggest that COVID-19 vaccination can help to control the pandemic. 
+After gathering data for new covid cases, we analyzed how these cases respond to vaccination rates and drew conclusions from our findings.  
 
-#### title
+# Data and Methods  
 
-The title of your site... shocker!
-
-Example `title: My Awesome Site`
-
-#### reading_time
-
-Set true to show reading time for posts. And set `words_per_minute`, default is 200.
-
-#### logo
-Your site's logo. It will show on homepage and navigation menu. Also used for twitter meta tags.
-
-#### background
-Image for background. If you don't set it, color will be used as a background.
-
-#### Google Analytics and Webmaster Tools
-
-Google Analytics UA and Webmaster Tool verification tags can be entered in `_config.yml`. For more information on obtaining these meta tags check [Google Webmaster Tools](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35179) and [Bing Webmaster Tools](https://ssl.bing.com/webmaster/configure/verify/ownership) support.
-
-#### MathJax
-It's enabled. But if you don't want to use it. Set it false in  `_config.yml`.
-
-#### Disqus Comments
-Set your disqus shortname in `_config.yml` to use comments.
-
----
-
-### Navigation Links
-
-To set what links appear in the top navigation edit `_data/navigation.yml`. Use the following format to set the URL and title for as many links as you'd like. *External links will open in a new window.*
-
-{% highlight yaml %}
-- title: Home
-  url: /
-
-- title: Blog
-  url: /blog/
-
-- title: Projects
-  url: /projects/
-
-- title: About
-  url: /about/
-
-- title: Moon
-  url: http://taylantatli.me/Moon
-{% endhighlight %}
-
----
-
-## Layouts and Content
-
-Moon Theme use [Jekyll Compress](https://github.com/penibelst/jekyll-compress-html) to compress html output. But it can cause errors if you use "linenos" (line numbers). I suggest don't use line numbers for codes, because it won't look good with this theme, also i didn't give a proper style for them. If you insist to use line numbers, just remove `layout: compress` string from layouts. It will disable compressing.
-
-### Feature Image
-
-You can set feature image per post. Just add `feature: some link` to your post's front matter.
-
-```
-feature: /assets/img/some-image.png
-or
-feaure: http://example.com/some-image.png
-```    
- This also will be used for twitter card:
-
-![Moon Twitter Card](https://cloud.githubusercontent.com/assets/754514/14509719/61c5751c-01d6-11e6-8c29-ce8ccad149bf.png)
-
-### Comments
-To show disqus comments for your post add `comments: true` to your post's front matter.
-
----
-
-## Questions?
-
-Found a bug or aren't quite sure how something works? By all means [file a GitHub Issue](https://github.com/TaylanTatli/Moon/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
-
-## License
-
-This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.
+For this project, we used data from the our world in data database on github. [Data on Covid-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data) 
