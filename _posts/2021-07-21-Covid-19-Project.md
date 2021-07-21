@@ -43,12 +43,11 @@ From our plots, we saw that for countries with covid case reporting such as that
 </figure>
 
 <figure class="half"> 
-    <center>
 	<img src="/assets/img/New Weekly Covid Cases.png">
 	<img src="/assets/img/New_Weekly_Vaccinations.png">
 	<figcaption> Plots Demonstrating New Weekly Cases and Vaccinations over time. Drops around January in the cases plot can be attributed to a drop in testing and reporting during the holidays. </figcaption>
-    </center> 
 </figure>
+
 
 
 <figure>
