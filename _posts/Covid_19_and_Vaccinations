@@ -8,9 +8,17 @@ comments: true
 ---
 # Introduction 
 
-COVID-19 is a type of coronavirus that possesses high rates of transmissibility among the human population. For this research project, we investigated how COVID-19 cases change at varying degrees of vaccination rates from a global, country, and state-level perspective. Our purpose was to identify the percentage of people vaccinated needed to begin to see a drop in cases. A variant of the virus,  *Delta*, has recently been reported as having a higher rate of transmissibility among vaccinated and non-vaccinated individuals alike. Previous research has shown that receiving two doses of the Pfizer mrna vaccine is highly effective across age groups greater than 16 years of age and in preventing symptomatic and asymptomatic SARS-CoV-2 infections. Moreover, the findings suggest that COVID-19 vaccination can help to control the pandemic. After gathering data for new covid cases, we analyzed how these cases respond to vaccination rates and drew conclusions from our findings.  
+COVID-19 is a type of coronavirus that possesses high rates of transmissibility among the human population.
+For this research project, we investigated how COVID-19 cases change at varying degrees of vaccination rates from a global, country, and state-level perspective.
+Our purpose was to identify the percentage of people vaccinated needed to begin to see a drop in cases.
+A variant of the virus,  *Delta*, has recently been reported as having a higher rate of transmissibility among vaccinated and non-vaccinated individuals alike.
+Previous research has shown that receiving two doses of the Pfizer mrna vaccine is highly effective across age groups greater than 16 years of age and in preventing symptomatic and asymptomatic SARS-CoV-2 infections. 
+Moreover, the findings suggest that COVID-19 vaccination can help to control the pandemic. 
+After gathering data for new covid cases, we analyzed how these cases respond to vaccination rates and drew conclusions from our findings.  
 
+# Data and Methods  
 
+For our data 
 
 
 
