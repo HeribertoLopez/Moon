@@ -37,5 +37,16 @@ From our plots, we saw that for countries with covid case reporting such as that
     </div> 
 </center> 
 
+<figure>
+    <a href="/assets/img/covid-vax-cases-plot.png"><img src="/assets/img/covid-vax-cases-plot.png"></a>
+    <figcaption> Rate of Covid Vaccinations in the United States over percentage of people fully vaccinated.</figcaption>
+</figure>
+
+<figure class="third">
+	<img src="/assets/img/New Weekly Covid Cases.png">
+	<img src="/images/img/New_Weekly_Vaccinations.png">
+	<img src="/images/img/Cases vs Vaccinations.png">
+	<figcaption> Plots Demonstrating New Weekly Cases over time, New Weekly Vaccinations over time, and Cases against percent of people fully vaccinated. Drops around January in the cases plot can be attributed to a drop in testing and reporting during the holidays. </figcaption>
+</figure>
 
 
