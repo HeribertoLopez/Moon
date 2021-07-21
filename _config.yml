@@ -1,6 +1,7 @@
 site:               heribertolopez.github.io 
 title:              Heriberto Lopez
-bio:                <font size = 2>  "All models are wrong, but some are useful - George Box" </font> 
+subtitle:           
+bio:                "'All models are wrong, but some are useful' - George Box"
 description:        "Hello, World!"
 reading_time:       true
 words_per_minute:   200
