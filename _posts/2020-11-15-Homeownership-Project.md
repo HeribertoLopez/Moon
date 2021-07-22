@@ -83,8 +83,9 @@ does not vary substantially by region.
     <a href='/assets/img/HomeOwnership_figure1.png'><img src ='/assets/img/HomeOwnership_figure1.png'></a> 
     <a href='/assets/img/HomeOwnership_figure2.png'><img src = '/assets/img/HomeOwnership_figure2.png'></a>
     <figcaption> Figure 1. Homeownership rates and Income by region. (Left). Figure 2. Homeownership Rate and percentage black by region. (Right)<sub></sub></figcaption> 
-  </figure>            
-             
+  </figure>   
+</center> 
+
 # Discussion 
 
 Based on our findings, we see that an increase in median family income or black population
@@ -125,6 +126,25 @@ Further research needs to be performed with access to more specific numbers than
 available to us. Being able to analyze homeownership by state would allow for the implementation of more complex models that can account for multiple economic and demographic
 factors. Whether it is not readily available or we were unable to find it, future studies using
 this information would be able to give more in depth analysis and find the factors that led to
-declining homeownership rates over the last couple decades.
+declining homeownership rates over the last couple decades. 
 
 
+<center>
+    <div class="btn-group">
+        <a href="https://github.com/HeribertoLopez/Home-Ownership-Project" class="btn btn-success"> Project Source Code</a>
+    </div>
+</center>
+
+# References
+
+Gwin, O. (2008). Do we really understand homeownership rates? An international study.
+International Journal of Housing Markets and Analysis, 1(1), 52–67. https://doi.org/10.1108/
+17538270810861157.
+
+Goodman, L., & Mayer, C. (2018). Homeownership and the American Dream. The Journal
+of Economic Perspectives, 32(1), 31-58. Retrieved November 3, 2020, from http://www.jstor.
+org/stable/26297968 
+
+Oladinrin, O. (2020). An analysis of factors affecting homeownership: a survey of Hong
+Kong households. Journal of Housing and the Built Environment : HBE., 35(3), 939–956.
+https://doi.org/10.1007/s10901-019-09723-
