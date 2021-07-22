@@ -80,7 +80,8 @@ does not vary substantially by region.
 
 <center> 
   <figure class="half"> 
-    <a href='/assets/img/HomeOwnership_figure1.png'><img src ='/assets/img/HomeOwnership_figure2.png'></a> 
+    <a href='/assets/img/HomeOwnership_figure2.png'><img src = '/assets/img/HomeOwnership_figure2.png'></a>
+    <a href='/assets/img/HomeOwnership_figure1.png'><img src ='/assets/img/HomeOwnership_figure1.png'></a> 
     <figcaption> Figure 1. Homeownership rates and Income by region. (Left). Figure 2. Homeownership Rate and percentage black by region. (Right)<sub></sub></figcaption> 
   </figure>            
              
