@@ -24,6 +24,5 @@ Our two datasets were obtained from Kaggle and included data collected thorough 
 <center>
     <figure class="half">
         <a href='/assets/img/LDA_plot.png'><img src='/assets/img/Screenshot 2021-07-22 105348.png'></a>
-        <figcaption> A table of he variales that were present in our original dataset and used as predictors in our models. rom the variables that we chose, previous research supported an association with the academic achievements of students, such as grades.   <sub></sub></figcaption>
          </figure>
 </center>
