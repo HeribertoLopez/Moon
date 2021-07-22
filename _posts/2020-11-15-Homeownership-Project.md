@@ -3,10 +3,10 @@ layout: post
 title: " The effects of income and race on Homeownership rates in the United States from 2010-2019 " 
 date: 2020-11-15
 category: Data Science 
+excerpt: "A Research Project looking at homeownership rates alongside income and race in the US.
 feature: https://thumbs.dreamstime.com/b/house-architecture-facade-vector-colorful-cartoon-style-illlustrations-121633747.jpg 
-excerpt: "A Research Project looking at homeownership rates alongside income and race in the US. 
 comments: true 
---- 
+---  
 
 # Introduction 
 
