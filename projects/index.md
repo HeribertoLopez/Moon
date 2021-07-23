@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Hobbies and Fun Involvements
-excerpt: "A List of Projects"
+title: "Pictues and Other"
 date: 2021-07-20
 comments: false
 ---
