@@ -31,4 +31,14 @@ Before begining, we filtered out all constituents who were not alumni of the col
      <figcaption> Table 1. Description of the variables that were used. </figcaption>
 </figure>
 
+# Methods 
+
+To explore our data we used the Kruskal-Wallis and the Wilcoxon-Mann-Whitney tests to determine whether there were significant differences in the median donation amounts among the different segments within the affiliation, leadership, and loyalty groupings. Additionally, we split the number of email messages received by constituents into brackets of 20 messages and used the Kruskal-Wallis test to determine whether there was a significant  difference in median donation amounts among the different message brackets. Because the donation amount was not normally distributed (Figure 1), testing for a difference in medians was more appropriate than testing for a difference in means.
+
+Logistic regression was also used to analyze the relationship between donors unsubscribing and the number of messages received, the number of messages clicked, the loyalty status of the donor, and the amount the individual donated to determine how St. Olaf Advancement should adapt their email communication strategy. The logistic regression in Figure 2 has been altered to show probability. The trend lines show the probability a constituent will unsubscribe from the mailing list based on the number of messages they have received.
+
+# Results 
+
+Using the Kruskal-Wallis test, we found a significant difference in the median giving amounts of the affiliation groups (H = 444.65, p-value < 0.001), the loyalty groups (H = 117.4, p-value < 0.001), and the message groups (H = 198.78, p-value < 0.001). Using the Wilcoxon-Mann-Whitney test, we found a significant difference in the median giving amounts of the two leadership groups (W = 421638, p < 0.001).
+
 
