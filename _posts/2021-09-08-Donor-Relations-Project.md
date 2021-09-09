@@ -58,9 +58,28 @@ Using the Kruskal-Wallis test, we found a significant difference in the median g
 
 
 
+
 <figure>
     <a href="/assets/img/Donor_Poster_5.png"><img src="/assets/img/Donor_Poster_5.png"></a>
-     <figcaption> Figure 2. The average donation amount of constituents for each message bracket and leadership segment. 
+     <figcaption> Figure 3. The average donation amount of constituents for each message bracket and leadership segment. 
      </figcaption> 
 </figure> 
+
+From our analysis of the visuals above, we noticed that the probability of unsubscribing based on the number of messages a constituent has received for each of loyalty groups does not fully demonstrate that as the number of messages increase the probability of unsubcribing will increase. Instead, it shows that if a given constituent is to unsubcribe, they will typically unsubcribe when the first few messages are received. Overall, the probability that a given constituent will unsubscribe is low if they’ve received a lot of messages and high if they’ve received only a few messages. It should be noted that some groups, such as the SYBUNT group, experience a slower decline in the probability of  unsubscribing.
+
+# Discussion 
+
+Based on the visualizations, we believe constituents are more sensitive to the first few messages sent compared to later messages. Moreover, we infer that constituents who prefer less emails will unsubscribe early on. From out data we found that the probability of unsubscribing is lowest for 1st Gift Last Year group and highest for the SYBUNT group. 
+
+Our analysis of message brackets appear to show that donors in the lower message brackets appear to donate in larger amounts. Additionally, there is a larger drop in the average donation amount at the 80 to 100 message bracket. 
+
+Based on these findings and limitations, believe that additional research should be done on other groups of constituents who may express different behaviors in response to email communications. It would be particular interesting to look at how far apart emails are sent to see if the timing of emails plays a role as well. Finally, exploration on the differences in behavior of the different messaging groups may be useful to further understand how to optimize messaging. 
+
+# Sources 
+- Sergeant, Adrian. Donor Retention: What Do We Know & What Can We Do About It?. Nonprofit Quarterly, 2013. 
+- Dietz, R., and B. Keller. “Donor loyalty study: A deep dive into donor behaviors and attitudes.” Nonprofit Times, 2016. 
+
+# Aknowledgements 
+This research was made possible by St. Olaf College’s Center for Interdisciplinary Research program with funding from the Jeff Helterbrand and Julia Varshavsky CIR Fund. 
+
 
