@@ -41,10 +41,13 @@ Logistic regression was also used to analyze the relationship between donors uns
 
 Using the Kruskal-Wallis test, we found a significant difference in the median giving amounts of the affiliation groups (H = 444.65, p-value < 0.001), the loyalty groups (H = 117.4, p-value < 0.001), and the message groups (H = 198.78, p-value < 0.001). Using the Wilcoxon-Mann-Whitney test, we found a significant difference in the median giving amounts of the two leadership groups (W = 421638, p < 0.001). 
 
+
 <figure>
     <a href="/assets/img/Donor_Poster_3.png"><img src="/assets/img/Donor_Poster_3.png"></a>
      <figcaption> Figure 1. The skewed distribution of donoation amounts from Alumni. </figcaption>
 </figure>
+
+
 
 
 <figure>
@@ -52,6 +55,8 @@ Using the Kruskal-Wallis test, we found a significant difference in the median g
      <figcaption> Figure 2. A line graph demonstrating the probability that a constituent within a given loyalty segment unsubscribes from the email list. 
      </figcaption>
 </figure> 
+
+
 
 <figure>
     <a href="/assets/img/Donor_Poster_5.png"><img src="/assets/img/Donor_Poster_5.png"></a>
