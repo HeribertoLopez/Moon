@@ -20,13 +20,15 @@ constituent' giving is affected by email communications. After an increase in em
 
 <figure>
     <a href="/assets/img/Donor_Poster_1.png"><img src="/assets/img/Donor_Poster_1.png"></a>
+    <figcaption> </figcaption>
 </figure>
 
 Before begining, we filtered out all constituents who were not alumni of the college as the focus of our research was on the engagement of alumni. Afterwards, we noticed the donation amount distribution was heavily right-skewed (Figure 1), so we filtered out gifts above the 99th percentile ($5000). Finally, we filtered out reocurring gifts (such as monthly $5 donations). The table below lists the definitions of the different segments analyzed. 
 
 
 <figure>
-    <a href="/assets/img/Donor_Poster_1.png"><img src="/assets/img/Donor_Poster_1.png"></a>
+    <a href="/assets/img/Donor_Poster_1.png"><img src="/assets/img/Donor_Poster_2.png"></a>
+     <figcaption> Table 1. Description of the variables that were used. </figcaption>
 </figure>
 
 
