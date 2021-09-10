@@ -34,7 +34,7 @@ Retrospective chart data from 2013 to 2019 was obtained from Regions Hospital. L
 
 <figure>
         <a href='/assets/img/LEP_Project_photo_2.png'><img src='/assets/img/LEP_Project_photo_2.png'></a>
-        <figcaption> Figure 2. The count of people who had emergency visits after 30 days of readmission. 0 - if person did not have an emrgency visit after 30 days of readmission, and 1 - if person did have an emrgency visits after 30 days of readmission. Total values for each group: 0 - 1891, 1 - 387.    
+        <figcaption> Figure 2. The count of people who had emergency visits after 30 days of readmission. 0 - if person did not have an emrgency visit after 30 days of readmission, and 1 - if person did have an emrgency visits after 30 days of readmission. Total values for each group: 0 - 1891, 1 - 387. </figcaption> 
 </figure>     
 </center>
     
@@ -50,13 +50,12 @@ The rates of ED visits and readmissions within 30 days of discharge were not sig
 ## 2. Logistic Regression 
 
 Mortality rates were not significantly different between the two groups but trended toward lower mortality rates for LEP patients compared to English Proficient patients (p = 0.0524).
-
- <figure>
+ 
+<figure>
         <a href='/assets/img/LEP_Project_photo_3.png'><img src='/assets/img/LEP_Project_photo_3.png'></a>  
-        <figcaption> Scatterplot showing an interaction for log(LOS) between the LEP and English groupf after adjusting for age and race. </figcaption> 
+        <figcaption> Figure 3. A Scatterplot showing an interaction effect for log(LOS) between the LEP and English groups after adjusting for age and race. </figcaption> 
 </figure>
          
-    
     
     
 # Discussion 
