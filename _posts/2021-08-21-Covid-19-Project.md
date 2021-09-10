@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Covid-19 and Vaccinations"
-date:   2021-07-20
+date:   2021-07-29
 excerpt: " A data visualization project."
 feature: https://images.moneycontrol.com/static-mcnews/2021/04/shutterstock_1624415920-770x433.jpg
 comments: true
