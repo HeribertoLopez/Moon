@@ -13,8 +13,8 @@ LEP patients are patients who do not speak English as their primary language and
 LOS, Readmission, Mortality, and Emergency Department Visits (ED). 
 
 <center> 
-    <figure class ="half"> 
-        <a href='/assets/img/LEP_Project_photo.png'><img src='/assets/img/LEP_Project_photo_4.png'></a>
+    <figure> 
+        <a href='/assets/img/LEP_Project_photo_4.png'><img src='/assets/img/LEP_Project_photo_4.png'></a>
         <figcaption> Density graph pulled from the United States Census Bureau </figcaption>
     </figure>
 </center>  
@@ -26,13 +26,13 @@ Retrospective chart data from 2013 to 2019 was obtained from Regions Hospital. L
 
 
 <center>
-    <figure class="half">
+    <figure>
         <a href='/assets/img/LEP_Project_photo.png'><img src='/assets/img/LEP_Project_photo.png'></a>
         <figcaption>> Variables used for adjusting the model. </figcaption> 
          </figure>
 
 
- <figure class="half">
+ <figure>
         <a href='/assets/img/LEP_Project_photo_2.png'><img src='/assets/img/LEP_Project_photo_2.png'></a>
         <figcaption> Count of people who had emergency visits after 30 days of readmission. 0 - if person did not have an emrgency visit after 30 days of readmission, and 1 - if person did have an emrgency visits after 30 days of readmission. Total values for each group: 0 - 1891, 1 - 387.    
  </figure>
@@ -49,7 +49,7 @@ The rates of ED visits and readmissions within 30 days of discharge were not sig
 
 Mortality rates were not significantly different between the two groups but trended toward lower mortality rates for LEP patients compared to English Proficient patients (p = 0.0524).
 
- <figure class="half">
+ <figure>
         <a href='/assets/img/LEP_Project_photo_3.png'><img src='/assets/img/LEP_Project_photo_3.png'></a>  
         <figcaption> Scatterplot showing an interaction for log(LOS) between the LEP and English groupf after adjusting for age and race. </figcaption> 
     </figure>
