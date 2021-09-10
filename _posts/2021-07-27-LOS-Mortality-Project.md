@@ -9,12 +9,14 @@ feature: https://image.flaticon.com/icons/png/512/5243/5243130.png
 
 # Introduction 
 
-LEP patients are patients who do not speak English as their primary language and have demonstrated a limited ability to read, speak, or write English. In 2019, approximatley 60 million of Americans spoke a language other than English at home and 25.9 million individuals were not proficient in speaking, reading, and writing English [1,2,3]. Moreover, the healthcare system in the United States is already diffciult to navigate even for individuals who speak English as their primary language, and barriers increase when limited-English proficiency individuals mesh with the health care system in the absence of an interpreter [4]. Thus, it has been well documented that Limited English Proficiency (LEP) patients, including refugees, experience inequities in our healthcare system. For this project, we were interested in uncovering an opportunity for improvement at our hospital by comparing healthcare outcomes for LEP patients who worked with interpreters to English proficient patients admitted to internal medicine. In, 
+LEP patients are patients who do not speak English as their primary language and have demonstrated a limited ability to read, speak, or write English. In 2019, approximatley 60 million of Americans spoke a language other than English at home and 25.9 million individuals were not proficient in speaking, reading, and writing English [1,2,3]. Moreover, the healthcare system in the United States is already diffciult to navigate even for individuals who speak English as their primary language, and barriers increase when limited-English proficiency individuals interact with the health care system in the absence of an interpreter [4]. Thus, it has been well documented that Limited English Proficiency (LEP) patients, including refugees, experience inequities in our healthcare system. For this project, we were interested in uncovering an opportunity for improvement at our hospital by comparing healthcare outcomes for LEP patients who worked with interpreters to English proficient patients admitted to internal medicine. In, 
 LOS, Readmission, Mortality, and Emergency Department Visits (ED). 
 
 # Data and Methodology 
 
-Retrospective chart data from 2013 to 2019 was obtained from Regions Hospital. LEP and English Proficient Patients were matched by age (+/5 years), insurance type, gender, and APRDRG weight (within 0.5). 
+Retrospective chart data from 2013 to 2019 was obtained from Regions Hospital. LEP and English Proficient Patients were matched by age (+/5 years), insurance type, gender, and APRDRG weight (within 0.5). LOS and APRDRG were log transformed due to skewness and to help assure linear assumptions in regression models. Linear and Logistic regression was used to analyze our response variables and response variables were adjusted for Age, APRDRG, Insurance type, language, race, and hispanic ethnicity.
+
+
 
 <center>
     <figure class="half">
@@ -23,6 +25,30 @@ Retrospective chart data from 2013 to 2019 was obtained from Regions Hospital. L
 </center>
 
 
+ <figure class="half">
+        <a href='/assets/img/LEP_Project_photo_2.png'><img src='/assets/img/LEP_Project_photo_2.png'></a>
+         </figure>
+         
+# Results 
+
+## 1. Linear Regression
+
+LEP patients experienced statistically significant longer lengths of stay of 0.62 days compared to English Proficient patients who had an average of 5.93 length of stay days  (p = .0171). 
+
+The rates of ED visits and readmissions within 30 days of discharge were not significantly different (p=0.948 and p = 0.4896). 
+
+## 2. Logistic Regression 
+
+Mortality rates were not significantly different between the two groups but trended toward lower mortality rates for LEP patients compared to English Proficient patients (p = 0.0524).
+
+ <figure class="half">
+        <a href='/assets/img/LEP_Project_photo_3.png'><img src='/assets/img/LEP_Project_photo_3.png'></a>  
+         </figure>
+         
+# Discussion 
+
+The study revealed that LOS was significantly increased for LEP patients, but there were not significant differences between other healthcare outcomes. Increased LOS raises concerns of poor communication leading to delays in care that English proficient patients don’t experience. Ensuring that providers follow best practices of working with an interpreter and have easy access to professionally trained interpreters remain crucial in caring for our refugee LEP patient
+         
 
 # Sources
 It is well documented that Limited English Proficiency (LEP) patients, including many refugees, experience inequities in our healthcare system.
