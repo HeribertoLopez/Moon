@@ -12,6 +12,13 @@ feature: https://image.flaticon.com/icons/png/512/5243/5243130.png
 LEP patients are patients who do not speak English as their primary language and have demonstrated a limited ability to read, speak, or write English. In 2019, approximatley 60 million of Americans spoke a language other than English at home and 25.9 million individuals were not proficient in speaking, reading, and writing English [1,2,3]. Moreover, the healthcare system in the United States is already diffciult to navigate even for individuals who speak English as their primary language, and barriers increase when limited-English proficiency individuals interact with the health care system in the absence of an interpreter [4]. Thus, it has been well documented that Limited English Proficiency (LEP) patients, including refugees, experience inequities in our healthcare system. For this project, we were interested in uncovering an opportunity for improvement at our hospital by comparing healthcare outcomes for LEP patients who worked with interpreters to English proficient patients admitted to internal medicine. In, 
 LOS, Readmission, Mortality, and Emergency Department Visits (ED). 
 
+<center> 
+    <figure class ="half"> 
+        <a href='/assets/img/LEP_Project_photo.png'><img src='/assets/img/LEP_Project_photo_4.png'></a>
+        <figcaption> Density graph pulled from the United States Census Bureau </figcaption>
+    </figure>
+</center>  
+
 # Data and Methodology 
 
 Retrospective chart data from 2013 to 2019 was obtained from Regions Hospital. LEP and English Proficient Patients were matched by age (+/5 years), insurance type, gender, and APRDRG weight (within 0.5). LOS and APRDRG were log transformed due to skewness and to help assure linear assumptions in regression models. Linear and Logistic regression was used to analyze our response variables and response variables were adjusted for Age, APRDRG, Insurance type, language, race, and hispanic ethnicity.
@@ -21,14 +28,15 @@ Retrospective chart data from 2013 to 2019 was obtained from Regions Hospital. L
 <center>
     <figure class="half">
         <a href='/assets/img/LEP_Project_photo.png'><img src='/assets/img/LEP_Project_photo.png'></a>
+        <figcaption>> Variables used for adjusting the model. </figcaption> 
          </figure>
-</center>
 
 
  <figure class="half">
         <a href='/assets/img/LEP_Project_photo_2.png'><img src='/assets/img/LEP_Project_photo_2.png'></a>
-         </figure>
-         
+        <figcaption> Count of people who had emergency visits after 30 days of readmission. 0 - if person did not have an emrgency visit after 30 days of readmission, and 1 - if person did have an emrgency visits after 30 days of readmission. Total values for each group: 0 - 1891, 1 - 387.    
+ </figure>
+</center>
 # Results 
 
 ## 1. Linear Regression
@@ -43,7 +51,8 @@ Mortality rates were not significantly different between the two groups but tren
 
  <figure class="half">
         <a href='/assets/img/LEP_Project_photo_3.png'><img src='/assets/img/LEP_Project_photo_3.png'></a>  
-         </figure>
+        <figcaption> Scatterplot showing an interaction for log(LOS) between the LEP and English groupf after adjusting for age and race. </figcaption> 
+    </figure>
          
 # Discussion 
 
@@ -62,6 +71,10 @@ depth/migration/index.html. Accessed May 4, 2020.
 Social Science &amp; Medicine. 2019;226(April 2018):29-36.
 
 [4] Ali PA, Watson R. Language barriers and their impact on provision of care to patients with limited
-English proficiency: Nurses’ perspectives. Journal of Clinical Nursing. 2018;27(5-6):e1152-e1160.
+English proficiency: Nurses’ perspectives. Journal of Clinical Nursing. 2018;27(5-6):e1152-e1160. 
+
+[5] Bureau, US Census. “Limited English Speaking Households as a Percentage of COUNTY TOTAL.” The United States Census Bureau, 18 July 2020, www.census.gov/library/visualizations/2017/comm/english-speaking.html. 
+
+
 
 
