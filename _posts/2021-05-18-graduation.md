@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/HeribertoLopez/heribertolopez.github.io/master
 {% capture images %} 
 
 https://raw.githubusercontent.com/HeribertoLopez/heribertolopez.github.io/master/assets/img/193709375_1666137340261515_8250058752632949652_n.jpg
-https://github.com/HeribertoLopez/heribertolopez.github.io/blob/master/assets/img/194438204_1666137660261483_4180970652899178979_n.jpg
+https://raw.githubusercontent.com/HeribertoLopez/heribertolopez.github.io/master/assets/img/194438204_1666137660261483_4180970652899178979_n.jpg
 https://raw.githubusercontent.com/HeribertoLopez/heribertolopez.github.io/master/assets/img/194205066_1666137373594845_14090772414959486_n.jpg
 https://raw.githubusercontent.com/HeribertoLopez/heribertolopez.github.io/master/assets/img/194438221_1666137556928160_6955166979114611116_n.jpg
 https://raw.githubusercontent.com/HeribertoLopez/heribertolopez.github.io/master/assets/img/193955108_1666136773594905_1906599502397991094_n.jpg
