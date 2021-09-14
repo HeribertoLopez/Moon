@@ -13,6 +13,6 @@ Hi! My name is Heriberto Lopez, I recently graduated from St. Olaf College with 
     <div class="btn-group">
         <a href="https://drive.google.com/file/d/1JBWlC_YGHRPY_pzgC4P_yLveAwiF8_B6/view?usp=sharing" class="btn btn-primary">Resume</a>
         <a href="https://heribertolopez.github.io//posts/" class="btn btn-primary"> Projects</a>
-        <a href="https://heribertolopez.github.io//projects/" class="btn btn-primary"> Hobbies</a>    
+        <a href="https://heribertolopez.github.io//projects/" class="btn btn-primary"> Other</a>    
     </div>
 </center>
