@@ -62,6 +62,10 @@ Mortality rates were not significantly different between the two groups but tren
 
 The study revealed that LOS was significantly increased for LEP patients, but there were not significant differences between other healthcare outcomes. Increased LOS raises concerns of poor communication leading to delays in care that English proficient patients don’t experience. Ensuring that providers follow best practices of working with an interpreter and have easy access to professionally trained interpreters remain crucial in caring for our refugee LEP patient
          
+<div class="btn-group">
+        <a href="https://github.com/HeribertoLopez/Limited-English-Proficency-Patients-Project" class="btn btn-info"> Source Code</a>
+</div> 
+ 
 
 # Sources
 It is well documented that Limited English Proficiency (LEP) patients, including many refugees, experience inequities in our healthcare system.
@@ -77,7 +81,7 @@ Social Science &amp; Medicine. 2019;226(April 2018):29-36.
 [4] Ali PA, Watson R. Language barriers and their impact on provision of care to patients with limited
 English proficiency: Nurses’ perspectives. Journal of Clinical Nursing. 2018;27(5-6):e1152-e1160. 
 
-[5] Bureau, US Census. “Limited English Speaking Households as a Percentage of COUNTY TOTAL.” The United States Census Bureau, 18 July 2020, www.census.gov/library/visualizations/2017/comm/english-speaking.html. 
+[5] Bureau, US Census. “Limited English Speaking Households as a Percentage of COUNTY TOTAL.” The United States Census Bureau, 18 July 2020, www.census.gov/library/visualizations/2017/comm/english-speaking.html.  
 
 
 
