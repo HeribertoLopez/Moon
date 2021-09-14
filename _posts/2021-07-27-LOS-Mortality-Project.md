@@ -68,7 +68,7 @@ The study revealed that LOS was significantly increased for LEP patients, but th
  
 
 # Sources
-It is well documented that Limited English Proficiency (LEP) patients, including many refugees, experience inequities in our healthcare system.
+
 [1] The United Nations. Global Issues. Migration. https://www.un.org/en/sections/issues-
 depth/migration/index.html. Accessed May 4, 2020.
 
