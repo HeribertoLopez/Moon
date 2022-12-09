@@ -2,7 +2,7 @@
 layout: post
 title:  "Senior Year Pictures"
 date:   2021-05-18
-project: true
+project: false
 comments: false
 --- 
 
