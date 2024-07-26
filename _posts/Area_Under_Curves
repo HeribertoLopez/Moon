@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Revisting Area Under (ROC) curve"
+date:   2024-05-05
+category: Data Science 
+excerpt: "How is the AUC value displayed in several graphs computed?"  
+---  
+
+## Overview of ROC
+
+The term “ROC” refers to “receiver operating characteristic”  originationg from radar engineers detecting enemy objects in battlefields. Two radar receiver operating characteristics are 
+true postive rate (TPR) and false postive rate (FPR). True positive rate refers to the proportion of predictions from a classifier than are correctly identified: TPR = $\frac{TP}{TP+FN}$ and 
+FPR refers to the proportion of negative examples predicted incorrectly: FPR = $\frac{FP}{TN+FP}$. An ROC asseses the performance of a classifier that returns a probability along with a
+prediction. 
+
+# get real data for classifying wine
+```
+wine = load_wine()
+X = wine.data
+y = wine.target
+y = (y == 2).astype(int) # the data have y in {0, 1, 2}: go binary by maping 0 and 1 to 0, 2 to 1
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
+```
